@@ -1,0 +1,110 @@
+package choose;
+
+public class course {
+	public String id;
+	public String name;
+	public String place;
+	public String time;
+	public String tname;
+	String getID(){
+		return id;
+	}
+	String getName(){
+		return name;
+	}
+	String getPlace(){
+		return place;
+	}
+	String getTime(){
+		return time;
+	}
+	String getTname(){
+		return tname;
+	}
+	public course(String id,String name,String place,String time,String Tname)
+	{
+		this.id = id;
+		this.name = name;
+		this.place = place;
+		this.time = time;
+		this.tname = tname;
+	}
+}
+
+package choose;
+
+public class people {
+	public String id;
+	public String name;
+	public String sex;
+	String getID(){
+		return id;
+	}
+	String getName(){
+		return name;
+	}
+	String getSex(){
+		return sex;
+	}
+	public people(String id,String name,String sex)
+	{
+		this.id = id;
+		this.name = name;
+		this.sex = sex;
+	}
+}
+package choose;
+
+public class student {
+	public String id;
+	public String name;
+	public String sex;
+	public String study;
+	public student(String id,String name,String sex,String study)
+	{
+		this.id = id;
+		this.name = name;
+		this.sex = sex;
+		this.study = study;
+	}
+}
+package choose;
+
+public class teacher {
+	public String id;	 
+	public String name;
+	public String sex;
+	public String teach;
+	String getID(){
+		return id;
+	}
+	String getName(){
+		return name;
+	}
+	String getSex(){
+		return sex;
+	}
+	String getTeach(){
+		return teach;
+	}
+	public teacher(String id,String name,String sex,String teach)
+	{
+		this.id = id;
+		this.name = name;
+		this.sex = sex;
+		this.teach = teach;
+	}
+}
+package choose;
+
+public class text{
+	public static void main(String choose[]){
+		//import choose.people;
+		//import choose.teacher;
+		//import choose.student;
+		//import choose.course;
+		student stu1 = new student("1","李四","男","离散");
+		teacher tea1 = new teacher("1","张三","女","JAVA");
+	}
+}
+
